@@ -1,0 +1,24 @@
+section {
+  display: grid;
+  gap: 0.5rem;
+  height: 40vw;
+  width: 40vw;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #e5f6ff;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background: orange;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
