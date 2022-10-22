@@ -1,8 +1,8 @@
 section {
   display: grid;
   gap: 0.5rem;
-  height: 40vw;
-  width: 40vw;
+  min-width: 40vw;
+  min-height: 40vw;
   justify-content: center;
   justify-items: center;
   align-items: center;
