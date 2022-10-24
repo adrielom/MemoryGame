@@ -10,7 +10,7 @@ const defaultGridState: IGrid = {
 
 const defaultState = {
   gridState: defaultGridState,
-  setGridState: () => { }
+  setGridState: () => { },
 } as IGridContext
 
 export const GridContext = createContext<IGridContext>(defaultState)
