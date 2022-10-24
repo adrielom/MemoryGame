@@ -1,11 +1,13 @@
 import { HTMLAttributes } from "react";
 
 import { GridCell } from "../Grid";
+import { ISquareValue } from "../Value";
 
 export interface ISquare extends HTMLAttributes<HTMLDivElement> {
   side?: number,
   radius?: number,
-  id: number,
+  squareId: number,
+  value: ISquareValue
 }
 
 export enum SquareState {
